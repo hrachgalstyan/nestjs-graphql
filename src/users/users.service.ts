@@ -45,7 +45,7 @@ export class UsersService {
 
     const user = this.users[userIndex];
 
-    this.users.splice(userIndex);
+    this.users.splice(userIndex, 1);
 
     return user;
   }
